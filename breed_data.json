@@ -1,0 +1,402 @@
+{
+  "Amritmahal": {
+    "description": "Legendary draft breed from Karnataka, originally bred for war transport. Known for immense stamina and speed.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "3.8% - 4.2%",
+    "climate_tolerance": "Semi-Arid & Heat Resistant",
+    "market_value": "₹40,000 - ₹80,000 (High demand for racing/draft)",
+    "diet": "Forest grazing, Ragi straw, Horse gram, Natural pasture grasses."
+  },
+  "Bachaur": {
+    "description": "Draft breed from Sitamarhi, Bihar. Closely resembles the Hariana breed but smaller. Excellent for field work.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "4.5% - 5.0%",
+    "climate_tolerance": "High Heat Tolerance",
+    "market_value": "₹25,000 - ₹45,000",
+    "diet": "Paddy straw, Khesari (Lathyrus), Pulse residues, Local grazing."
+  },
+  "Badri": {
+    "description": "Small hill cattle from Uttarakhand. Grazes on medicinal herbs, producing 'medicinal' quality milk. Cold tolerant.",
+    "milk_yield": "1-3 Liters/Day",
+    "fat_percentage": "5.5% (Rich A2 Milk)",
+    "climate_tolerance": "Extreme Cold & Hilly Terrain",
+    "market_value": "₹20,000 - ₹35,000",
+    "diet": "Medicinal herbs, Shrubs, Oak leaves (winter), Himalayan pasture grasses."
+  },
+  "Bargur": {
+    "description": "Forest-bred cattle from Erode, Tamil Nadu. Known for speed and endurance in trotting. Semi-wild behavior.",
+    "milk_yield": "1-3 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Forest Terrain & Heat",
+    "market_value": "₹30,000 - ₹55,000",
+    "diet": "Forest vegetation, Mountain grasses, Minimal stall feeding."
+  },
+  "Belahi": {
+    "description": "Migratory breed from the foothills of Haryana. Distinctive reddish-brown color with white markings. Hardy nature.",
+    "milk_yield": "3-5 Liters/Day",
+    "fat_percentage": "4.5% - 5.2%",
+    "climate_tolerance": "Variable (Migratory)",
+    "market_value": "₹30,000 - ₹50,000",
+    "diet": "Seasonal pastures, Forest grasses, Crop residues (during migration)."
+  },
+  "Binjharpuri": {
+    "description": "Native to Odisha. Medium-sized dual-purpose breed. Used extensively for paddy cultivation in wetlands.",
+    "milk_yield": "3-5 Liters/Day",
+    "fat_percentage": "4.3% - 4.8%",
+    "climate_tolerance": "High Humidity & Rain",
+    "market_value": "₹25,000 - ₹40,000",
+    "diet": "Paddy straw, Vegetable waste, Aquatic weeds, Wetland grazing."
+  },
+  "Dagri": {
+    "description": "Found in Dahod, Gujarat. Mainly used for agricultural operations in hilly tribal areas. White/Grey color.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Hilly Terrain",
+    "market_value": "₹20,000 - ₹35,000",
+    "diet": "Maize stover, Forest undergrowth, Local tribal grazing lands."
+  },
+  "Dangi": {
+    "description": "Draft breed from Maharashtra (Western Ghats). Unique black and white spots. Excellent for working in heavy rain/paddy fields.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Heavy Rainfall",
+    "market_value": "₹30,000 - ₹50,000",
+    "diet": "Rice straw, Nachani (Finger Millet) straw, Forest grazing."
+  },
+  "Deoni": {
+    "description": "Dual-purpose breed from Maharashtra/Karnataka. Resembles Gir but with black/white spots. Good milkers.",
+    "milk_yield": "6-10 Liters/Day",
+    "fat_percentage": "4.2% - 4.8%",
+    "climate_tolerance": "Semi-Arid",
+    "market_value": "₹45,000 - ₹70,000",
+    "diet": "Sorghum (Jowar) straw, Cotton seed cake, Grazing."
+  },
+  "Gangatiri": {
+    "description": "Native to the banks of the Ganga in UP/Bihar. Good dual-purpose breed. Very economical for small farmers.",
+    "milk_yield": "4-8 Liters/Day",
+    "fat_percentage": "4.5% - 4.9%",
+    "climate_tolerance": "Riverine Plains",
+    "market_value": "₹35,000 - ₹60,000",
+    "diet": "Riverine grasses, Rice straw, Pulse husks, Wheat bran."
+  },
+  "Gaolao": {
+    "description": "Draft breed from Wardha, Maharashtra. Historically the military breed of the Marathas. Fast runners.",
+    "milk_yield": "3-6 Liters/Day",
+    "fat_percentage": "4.5% - 5.0%",
+    "climate_tolerance": "Dry Heat",
+    "market_value": "₹30,000 - ₹55,000",
+    "diet": "Dry grasses, Jowar/Wheat straw, Oil cakes."
+  },
+  "Ghumusari": {
+    "description": "Draft breed from Odisha. Small but sturdy. Excellent for carting and ploughing in coastal/hilly areas.",
+    "milk_yield": "1-3 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Coastal Humidity",
+    "market_value": "₹20,000 - ₹35,000",
+    "diet": "Coastal grasses, Rice straw, Pulse residues."
+  },
+  "Gir": {
+    "description": "World-famous dairy breed from Gujarat. Distinct curved forehead and long ears. High milk yield and docile nature.",
+    "milk_yield": "12-18 Liters/Day",
+    "fat_percentage": "4.5% - 5.2%",
+    "climate_tolerance": "High Heat & Disease Resistant",
+    "market_value": "₹60,000 - ₹1,50,000",
+    "diet": "Green Fodder (Lucerne/Berseem), Jaggery, Cotton Seed Cake, Compound feed."
+  },
+  "Hallikar": {
+    "description": "The progenitor of all Mysore breeds. Famous for long, vertical, backward-bending horns. Sprint-like speed in field work.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "3.8% - 4.2%",
+    "climate_tolerance": "Semi-Arid",
+    "market_value": "₹50,000 - ₹1,00,000 (Prize Bulls)",
+    "diet": "Ragi straw, Rice bran, Semi-arid grazing, Horse gram."
+  },
+  "Hariana": {
+    "description": "Premier dual-purpose breed from North India. Powerful work animals and fair milkers. White/Grey color.",
+    "milk_yield": "5-8 Liters/Day",
+    "fat_percentage": "4.0% - 4.8%",
+    "climate_tolerance": "Heat & Drought",
+    "market_value": "₹40,000 - ₹75,000",
+    "diet": "Wheat bhusa, Green Jowar (Sorghum), Gram husk, Concentrates."
+  },
+  "Himachali Pahari": {
+    "description": "Small, hardy mountain cattle from Himachal Pradesh. Sure-footed on steep slopes. High disease resistance.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "4.5% - 5.0%",
+    "climate_tolerance": "Cold & Mountainous",
+    "market_value": "₹15,000 - ₹30,000",
+    "diet": "Forest grazing, Tree fodder (Grewia/Ficus), Maize/Wheat stalks."
+  },
+  "Kangayam": {
+    "description": "Pride of Tamil Nadu. Grey/White coat with dark markings. Known for immense strength and 'Jallikattu' cultural value.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "3.8% - 4.2%",
+    "climate_tolerance": "Drought Resistant",
+    "market_value": "₹50,000 - ₹1,50,000 (Stud Bulls)",
+    "diet": "Sorghum, Pearl Millet, Kolu Kattai (Cenchrus ciliaris) grass."
+  },
+  "Kankrej": {
+    "description": "Heaviest indigenous breed. Native to Kutch, Gujarat. Massive lyre-shaped horns. 'Sawai Chal' (unique gait).",
+    "milk_yield": "8-12 Liters/Day",
+    "fat_percentage": "4.5% - 5.0%",
+    "climate_tolerance": "Saline/Desert Terrain",
+    "market_value": "₹50,000 - ₹90,000",
+    "diet": "Semi-arid shrubs (Prosopis), Cotton seeds, Guar, Thorn forest grazing."
+  },
+  "Kenkatha": {
+    "description": "Small draft breed from Bundelkhand (UP/MP). Known for thriving on poor quality feed and harsh terrain.",
+    "milk_yield": "1-3 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Rocky/Arid Terrain",
+    "market_value": "₹20,000 - ₹40,000",
+    "diet": "Coarse grasses, Tree leaves (Mahua), Crop residues."
+  },
+  "Khariar": {
+    "description": "From Nuapada, Odisha. All-purpose breed for tribal farmers. Very low maintenance requirements.",
+    "milk_yield": "1-3 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Drought Tolerant",
+    "market_value": "₹20,000 - ₹35,000",
+    "diet": "Forest grazing (Sal leaves), Crop residues, Local vegetation."
+  },
+  "Kherigarh": {
+    "description": "Draft breed from Lakhimpur Kheri, UP. Active grazers, often white in color. Good for light carting.",
+    "milk_yield": "1-3 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Humid Plains",
+    "market_value": "₹25,000 - ₹40,000",
+    "diet": "Marshland grazing, Sugarcane tops, Coarse grasses."
+  },
+  "Khillar": {
+    "description": "The 'Race Car' of cattle breeds from Maharashtra. Aggressive, high energy, and extremely fast. Not for beginners.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "3.8% - 4.2%",
+    "climate_tolerance": "Stony/Dry Terrain",
+    "market_value": "₹50,000 - ₹1,20,000",
+    "diet": "Sugarcane tops, Maize, Jowar straw, Groundnut cake."
+  },
+  "Kokan Kapila": {
+    "description": "Small cattle from Konkan region (Maharashtra/Goa). Adapted to high rainfall and rice farming. Various colors.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "4.5% - 5.0%",
+    "climate_tolerance": "High Humidity & Rain",
+    "market_value": "₹20,000 - ₹35,000",
+    "diet": "Western Ghats vegetation, Rice straw, Coconut waste."
+  },
+  "Kosali": {
+    "description": "From Chhattisgarh. Small, sturdy, and efficient. Vital for small-scale paddy farmers.",
+    "milk_yield": "1-3 Liters/Day",
+    "fat_percentage": "3.5% - 4.5%",
+    "climate_tolerance": "Heat & Humidity",
+    "market_value": "₹15,000 - ₹30,000",
+    "diet": "Rice straw, Forest grass, Pulse husks."
+  },
+  "Krishna Valley": {
+    "description": "Heavy draft breed from North Karnataka. Massive frame, bred for plowing sticky black cotton soil.",
+    "milk_yield": "4-6 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Hot & Humid",
+    "market_value": "₹40,000 - ₹70,000",
+    "diet": "Jowar/Maize fodder, Local grasses, Sugarcane tops."
+  },
+  "Ladakhi": {
+    "description": "Native to Ladakh. Adapted to high altitude, hypobaric hypoxia, and extreme cold (-30°C). Small black/brown cattle.",
+    "milk_yield": "1-3 Liters/Day",
+    "fat_percentage": "6.0% - 8.0% (Very High)",
+    "climate_tolerance": "Extreme Cold & Altitude",
+    "market_value": "₹20,000 - ₹40,000",
+    "diet": "Alfalfa (Lucerne), Willow leaves, High altitude shrubs."
+  },
+  "Lakhimi": {
+    "description": "Entirely kept by small farmers in Assam. Integral to rural economy. Resistant to diverse parasites.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "4.5% - 5.0%",
+    "climate_tolerance": "High Humidity & Flood",
+    "market_value": "₹20,000 - ₹35,000",
+    "diet": "Free grazing, Rice bran, Bamboo leaves, Aquatic plants."
+  },
+  "Malnad Gidda": {
+    "description": "Dwarf cattle from Karnataka's Western Ghats. Highly disease resistant. Milk is rich in medicinal properties.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "5.0% - 6.0%",
+    "climate_tolerance": "Heavy Rain & Forest",
+    "market_value": "₹35,000 - ₹60,000",
+    "diet": "Forest herbs, Medicinal plants, Green grass, Jackfruit leaves."
+  },
+  "Malvi": {
+    "description": "Draft breed from Malwa, MP. White coat, strong build. Very popular for agricultural work in Central India.",
+    "milk_yield": "3-5 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Semi-Arid",
+    "market_value": "₹30,000 - ₹50,000",
+    "diet": "Wheat straw, Soybean residue, Grazing on fallow lands."
+  },
+  "Mewati": {
+    "description": "Dual purpose breed from Mewat (Rajasthan/Haryana). Docile and hard working. Good for both milk and plow.",
+    "milk_yield": "4-7 Liters/Day",
+    "fat_percentage": "4.5% - 5.0%",
+    "climate_tolerance": "Heat Tolerant",
+    "market_value": "₹35,000 - ₹60,000",
+    "diet": "Wheat bhusa, Mustard cake, Green fodder, Crop residues."
+  },
+  "Motu": {
+    "description": "Dwarf breed from southern Odisha. Known for unique reddish-brown coat. Extremely hardy.",
+    "milk_yield": "1-2 Liters/Day",
+    "fat_percentage": "4.5% - 5.0%",
+    "climate_tolerance": "Tribal/Hilly Terrain",
+    "market_value": "₹15,000 - ₹25,000",
+    "diet": "Forest grazing, Ragi straw, Local vegetation."
+  },
+  "Nagori": {
+    "description": "Famous trotting draft breed from Nagaur, Rajasthan. Agile, tall, and spirited. Used for transport.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "3.8% - 4.2%",
+    "climate_tolerance": "Desert Heat",
+    "market_value": "₹35,000 - ₹65,000",
+    "diet": "Guar, Bajra, Moth straw, Crushed grains."
+  },
+  "Nari": {
+    "description": "Migratory breed from Sirohi/Pali, Rajasthan. Dual purpose. Known for concave forehead and spiraled horns.",
+    "milk_yield": "4-6 Liters/Day",
+    "fat_percentage": "4.5% - 5.0%",
+    "climate_tolerance": "Arid Migration",
+    "market_value": "₹30,000 - ₹50,000",
+    "diet": "Migratory grazing, Tree loppings (Khejri), Dry fodder."
+  },
+  "Nimari": {
+    "description": "Known as the 'Khillar of MP'. Copper-red color with white splashes. Very active and aggressive draft breed.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Dry Heat",
+    "market_value": "₹30,000 - ₹55,000",
+    "diet": "Cotton seeds, Jowar stalks, River bank grazing."
+  },
+  "Ongole": {
+    "description": "World-renowned breed from AP. Ancestor of the American Brahman. Massive, muscular, and disease resistant.",
+    "milk_yield": "5-8 Liters/Day",
+    "fat_percentage": "4.0% - 5.0%",
+    "climate_tolerance": "High Heat & Viral Resistant",
+    "market_value": "₹60,000 - ₹2,00,000",
+    "diet": "Rice straw, Groundnut haulms, Paddy bran, Green fodder."
+  },
+  "Ponwar": {
+    "description": "Draft breed from Pilibhit, UP. Black and white patches. Small, compact, and active. Good for fast carting.",
+    "milk_yield": "1-3 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Plains",
+    "market_value": "₹25,000 - ₹40,000",
+    "diet": "Forest edge grazing, Rice straw, Agricultural waste."
+  },
+  "Poda Thurpu": {
+    "description": "Draft cattle from Telangana forests. Bred by Lambada tribes. Excellent for working in deep mud/wetlands.",
+    "milk_yield": "2-3 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Forest/Humid",
+    "market_value": "₹30,000 - ₹50,000",
+    "diet": "Forest grazing, Maize stover, Tree loppings."
+  },
+  "Pulikulam": {
+    "description": "The famous 'Jallikattu' bull breed from Tamil Nadu. Grazes in large herds. Aggressive and agile.",
+    "milk_yield": "1-3 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Hot & Dry",
+    "market_value": "₹40,000 - ₹1,00,000 (Game Bulls)",
+    "diet": "Open grazing (Cenchrus ciliaris), Sorghum, Pasture lands."
+  },
+  "Punganur": {
+    "description": "World's shortest humped cattle (Dwarf). Native to AP. Status symbol. Milk is extremely high in fat.",
+    "milk_yield": "3-5 Liters/Day",
+    "fat_percentage": "8.0% - 10.0% (Highest)",
+    "climate_tolerance": "Dry Climate",
+    "market_value": "₹2,00,000 - ₹5,00,000",
+    "diet": "Green grass, Dry fodder, Coconut cake, Kitchen waste."
+  },
+  "Purnea": {
+    "description": "Small red cattle from Purnea, Bihar. Used for plowing small holdings. Low feed requirement.",
+    "milk_yield": "1-3 Liters/Day",
+    "fat_percentage": "4.2% - 4.8%",
+    "climate_tolerance": "Humid Plains",
+    "market_value": "₹20,000 - ₹35,000",
+    "diet": "Rice straw, Jute leaves, Local grasses."
+  },
+  "Rathi": {
+    "description": "Excellent dairy breed from Bikaner, Rajasthan. Called the 'Poor Man's Sahiwal'. Adaptable dual-purpose.",
+    "milk_yield": "10-14 Liters/Day",
+    "fat_percentage": "4.5% - 5.0%",
+    "climate_tolerance": "Extreme Desert Heat",
+    "market_value": "₹45,000 - ₹85,000",
+    "diet": "Moth/Guar straw, Oil cakes (Mustard), Sewan grass."
+  },
+  "Red Kandhari": {
+    "description": "Draft breed from Nanded, Maharashtra. Deep brick-red color. Very uniform and attractive appearance.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "4.5% - 5.0%",
+    "climate_tolerance": "Dry Heat",
+    "market_value": "₹35,000 - ₹60,000",
+    "diet": "Sorghum straw, Cotton seed cake, Pulse residues."
+  },
+  "Red Sindhi": {
+    "description": "Top-tier dairy breed. Distinct deep red color. Genetically close to Sahiwal but hardier.",
+    "milk_yield": "10-15 Liters/Day",
+    "fat_percentage": "4.5% - 5.2%",
+    "climate_tolerance": "Heat & Disease Resistant",
+    "market_value": "₹50,000 - ₹90,000",
+    "diet": "Dry fodder, Green grass, Rice bran, Calcium supplements."
+  },
+  "Sahiwal": {
+    "description": "India's best milch breed. Loose skin ('Lola'). Sweet milk. Exceptionally calm and high yielding.",
+    "milk_yield": "12-18 Liters/Day",
+    "fat_percentage": "4.5% - 5.2%",
+    "climate_tolerance": "Heat & Parasite Resistant",
+    "market_value": "₹60,000 - ₹1,00,000",
+    "diet": "Wheat straw, Maize, Mustard cake, Green fodder (Berseem/Lucerne)."
+  },
+  "Shweta Kapila": {
+    "description": "Short, white cattle from Goa. Produces A2 milk rich in magnesium. Entirely white coat and eyes.",
+    "milk_yield": "3-5 Liters/Day",
+    "fat_percentage": "5.0% - 6.0%",
+    "climate_tolerance": "Coastal Humidity",
+    "market_value": "₹30,000 - ₹60,000",
+    "diet": "Coastal grasses, Jackfruit leaves, Rice gruel, Coconut waste."
+  },
+  "Siri": {
+    "description": "Draught breed from Sikkim/Darjeeling. Black and white coat. Thick fur for cold protection.",
+    "milk_yield": "2-4 Liters/Day",
+    "fat_percentage": "4.5% - 5.5%",
+    "climate_tolerance": "High Altitude Cold",
+    "market_value": "₹25,000 - ₹45,000",
+    "diet": "Alpine grasses, Tree fodder, Maize stalks."
+  },
+  "Tharparkar": {
+    "description": "The 'White Pearl' of the Desert. From Jaisalmer/Kutch. Milk yield increases during drought conditions.",
+    "milk_yield": "10-14 Liters/Day",
+    "fat_percentage": "4.5% - 4.9%",
+    "climate_tolerance": "Extreme Drought",
+    "market_value": "₹50,000 - ₹90,000",
+    "diet": "Bajra straw, Guar phalgati, Wild desert grasses (Sewan)."
+  },
+  "Thutho": {
+    "description": "Indigenous cattle of Nagaland. Used for meat and draft. Semi-wild management system.",
+    "milk_yield": "1-2 Liters/Day",
+    "fat_percentage": "4.0% - 4.5%",
+    "climate_tolerance": "Hilly Jungle",
+    "market_value": "₹20,000 - ₹35,000",
+    "diet": "Hilly jungle grazing, Forest vegetation, Bamboo leaves."
+  },
+  "Umblachery": {
+    "description": "Draft breed from coastal Tamil Nadu. Calves are born red and turn grey. Resistant to marshy rot.",
+    "milk_yield": "2-3 Liters/Day",
+    "fat_percentage": "4.5% - 5.0%",
+    "climate_tolerance": "Marshy/Wetland",
+    "market_value": "₹30,000 - ₹50,000",
+    "diet": "Paddy straw, Rice bran, Grazing on bunds."
+  },
+  "Vechur": {
+    "description": "Smallest cattle breed from Kerala. Highly valued for medicinal milk properties (easy digestibility).",
+    "milk_yield": "2-3 Liters/Day",
+    "fat_percentage": "5.5% - 7.0%",
+    "climate_tolerance": "Tropical Heat & Rain",
+    "market_value": "₹1,00,000 - ₹2,00,000",
+    "diet": "Kitchen waste, Jackfruit leaves, Banana stems, Rice gruel (Kanji)."
+  }
+}
