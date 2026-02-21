@@ -206,14 +206,31 @@ def create_pdf(breed, score, info, img):
     pdf.cell(0, 5, f"Generated on: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}", ln=True, align='C')
     pdf.line(10, 25, 200, 25)
     
-    # Image
+    # --- FIX: DYNAMIC IMAGE SCALING & POSITIONING ---
     img_path = "temp_report_img.png"
+    current_y = 35
     try:
+        w, h = img.size
+        aspect_ratio = h / w
+        print_w = 100
+        print_h = print_w * aspect_ratio
+        
+        # Cap the height so tall portrait images don't ruin the page
+        if print_h > 80:
+            print_h = 80
+            print_w = print_h / aspect_ratio
+            
+        print_x = (210 - print_w) / 2  # Center it on an A4 page (210mm wide)
+        
         img.save(img_path)
-        pdf.image(img_path, x=55, y=30, w=100)
-    except: pass
+        pdf.image(img_path, x=print_x, y=current_y, w=print_w, h=print_h)
+        
+        # Move text cursor exactly 10 units below the image
+        pdf.set_y(current_y + print_h + 10)
+    except Exception as e:
+        pdf.set_y(115) # Fallback if image fails
+    # ------------------------------------------------
     
-    pdf.set_y(115)
     pdf.set_fill_color(220, 230, 255)
     pdf.set_font("Arial", 'B', 14)
     pdf.cell(0, 10, f"DETECTED BREED: {breed} ({score:.1f}%)", ln=True, align='C', fill=True)
