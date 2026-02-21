@@ -1,7 +1,6 @@
-tensorflow
 streamlit
+tensorflow-cpu
 numpy
 pillow
-matplotlib
-scipy
+pandas
 fpdf
